@@ -1,0 +1,264 @@
+Processing 10 PDF files...
+
+================================================================================
+
+### 1-s2.0-S0272494405801914-main.pdf
+--------------------------------------------------------------------------------
+Title: analysis of a political issue. Staub prefers the neutral scientist's listing of factors that
+Authors: analysis of a political issue. Staub prefers the neutral scientist's listing of factors that
+Year: Not found
+Journal: this journal; environmental psychology is peculiarly liable to the
+DOI: Not found
+
+Abstract (preview):
+social
+phenomena (economics, medical ethics). It is an unresolved dilemma in this book--
+largely, I suppose, because many voices are speaking--that the image of societal
+psychology's target problem never really gets in front of us. The impression I am left
+with is that its lines are kept blurred by ...
+
+First page preview:
+Book Reviews 293
+analysis of a political issue. Staub prefers the neutral scientist's listing of factors that
+predispose the occurrence of genocide (for example 'political instability of the region at
+risk'). This is a rather partial argument to pull off, and it is not helped by some
+overgeneral assertions about human nature. And when the example cries out for a
+broader political palette, as it does in the case of the Khmer Rouge, then the
+insensitivity to a more openly political analysis becomes a real hindrance. One asks
+oneself whether the editors asked their authors to keep things apolitical; certainly
+Staub has, elsewhere, not shrunk from politically literate and concerned writing. (In
+fact, he has recently been one of the few to go on public record in criticism &the United
+States' lead up to the war in the Gulf.)
+Reflecting on the book as a whole, two questions come to mind. I wanted to know
+what it was that societal psychology explained: sometimes we were talking about
+individuals (in groups or larger aggregates) sometimes about abstract social
+phenomena (economics, medical ethics). It is an unresolved dilemma in this book--
+================================================================================
+
+### 9780262269209_caa.pdf
+--------------------------------------------------------------------------------
+Title: This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Authors: Chapter 1
+Year: 1965
+Journal: Not found
+DOI: 10.7551/mitpress/1486.001.0001
+
+First page preview:
+This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Chapter 1
+The Auditory Scene
+Historical Difference between Auditory and Visual Perception
+If you were to pick up a general textbook on perception written
+before 1965 and leaf through it, you would not find any great concern
+with the perceptual or ecological questions about audition. By a per-
+ceptual question I mean one that asks how our auditory systems
+could build a picture of the world around us through their sensitivity to
+sound, whereas by an ecological one I am referring to one that asks
+how our environment tends to create and shape the sound around us.
+(The two kinds of questions are related. Only by being aware of how
+the sound is created and shaped in the world can we know how to use
+it to derive the properties of the sound-producing events around us.)
+Instead, you would find discussions of such basic auditory qualities
+================================================================================
+
+### 9780262269209_cac.pdf
+--------------------------------------------------------------------------------
+Title: This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Authors: Chapter 3
+Year: Not found
+Journal: Not found
+DOI: 10.7551/mitpress/1486.001.0001
+
+First page preview:
+This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Chapter 3
+Integration of Simultaneous Auditory Components
+The task of segregating sounds that had arisen from different sources
+was described in chapter 1 through the example of the spectrogram of
+a mixture of sounds (see figure 1.4). It was apparent that there are
+two kinds of grouping to be done. First, a process of sequential
+grouping was needed to put some of the spectral components that
+followed one another in time into the same perceptual stream, where
+they could be used to calculate the sequential properties of a source
+of sound in the environment (such as its melody or rhythm). This
+process was the subject of chapter 2.
+A second process was needed to partition the set of concurrent
+components into distinct subsets, and to place them into different
+streams where they could be used to calculate the spectral properties
+================================================================================
+
+### 9780262269209_cad.pdf
+--------------------------------------------------------------------------------
+Title: This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Authors: Chapter 4
+Year: Not found
+Journal: Not found
+DOI: 10.7551/mitpress/1486.001.0001
+
+First page preview:
+This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Chapter 4
+Schema-Based Segregation and Integration
+In chapters 2 and 3, we have studied the two types of primitive
+grouping, sequential and spectral, that help to solve the problem of
+auditory scene analysis. We have treated them as if they were fully
+explainable as automatic innate processes that act without conscious
+control. However, this cannot be the whole story about the organiza-
+tion of auditory signals. In many cases, hearing a signal in a mixture
+of sounds depends on conscious effort and prior learning.
+In the present chapter, I would like to consider the contribution
+made by attention and knowledge in the perceptual analysis of sig-
+nais. I will not be able to provide much of an account of the internai
+machinery of knowledge-based analysis. Little relevant research has
+been done. My main emphasis will be on trying to strip away the
+================================================================================
+
+### 9780262269209_caf.pdf
+--------------------------------------------------------------------------------
+Title: This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Authors: Chapter 6
+Year: Not found
+Journal: Not found
+DOI: 10.7551/mitpress/1486.001.0001
+
+First page preview:
+This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Chapter 6
+Auditory Organization in Speech Perception
+I now want to examine the role of the primitive scene-analysis pro-
+cesses in the perception of speech. As the discussion proceeds,
+however, we will see that the contribution of primitive processes is
+obscured by the contribution of speech schemas. I described some
+general properties of schemas in chapter 4. Among them was the
+property of being able to extract what is needed from mixtures. Since
+both primitive grouping and schema-based grouping operate at the
+same time, it will be difficult to know what is primitive and what is
+not. The strategy that I will follow is that when the organizational
+processes are the same in speech as in simpler signals, I will assume
+that they derive from primitive processes, whereas when particular
+capabilities for perceptual isolation are found in speech, I will assume
+================================================================================
+
+### 9780262269209_cah (1).pdf
+--------------------------------------------------------------------------------
+Title: This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Authors: Chapter 8
+Year: Not found
+Journal: Not found
+DOI: 10.7551/mitpress/1486.001.0001
+
+First page preview:
+This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Chapter 8
+Summary and Conclusions: What We Do and Do
+Not Know about Auditory Scene Analysis
+Summary of Previous Chapters
+This chapter presents my conclusions about what we do and do not
+know about auditory scene analysis at present. The sequence of topics
+exactly follows that of the previous chapters, so ifa point is not clear
+here, or if fuller details are wanted, the reader should have no difficul-
+ty in finding the corresponding material in the earlier discussion. In
+this chapter I present no references to the experiments on which the
+conclusions are based. The interested reader can look for them in the
+earlier chapters. Sometimes I have not undertaken to define a techni-
+cal word here. In such cases, a rough definition can be found in the
+glossary at the end of the book.
+================================================================================
+
+### 9780262269209_cai.pdf
+--------------------------------------------------------------------------------
+Title: This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Authors: Notes
+Year: 1969
+Journal: Not found
+DOI: 10.7551/mitpress/1486.001.0001
+
+First page preview:
+This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Notes
+Fr example, those described by Deutsch (1975a).
+From Guzman (1969).
+Bregman and Rudnicky (1975).
+Treisman and Schmidt (1982).
+Julesz and Hirsh (1972).
+Forms of this effect have been described by Vicario (1965, 1982) and Bregman
+and Achim (1973).
+See discussion in van Noorden (1975). A more elaborate form of Körte's law
+in audition has been offered by Jones (1976).
+Ogasawara (1936), Corbin (1942), and Attneave and Block (1973).
+Bregman and Mills (1982).
+See review in Warren (1982).
+Bregman and Pinker (1978).
+================================================================================
+
+### 9780262269209_fa.pdf
+--------------------------------------------------------------------------------
+Title: This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Authors: Preface
+Year: Not found
+Journal: Not found
+DOI: 10.7551/mitpress/1486.001.0001
+
+First page preview:
+This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Preface
+In the late 1960s, when I began to do research on the perceptual
+organization of sound, I naively thought that surely the questions that
+I was puzzling about had been studied to death. I could vaguely recol-
+lect the term tonal fusion and was sure that some hoary psychologist
+had figured it out. Gradually, as my own research progressed, I dis-
+covered that there had been a trickle of studies, but somehow the
+impetus was weak. Audition had not attracted the attention that
+vision had. Nonetheless, I started to explore a phenomenon that
+I called auditory stream segregation (later dubbed streaming by Ulric
+Neisser).
+It was fortunate that I had never been trained in auditory perception
+and had only the most primitive idea about the structure of sound. I
+was free to pursue the phenomena as they unfolded without feeling
+================================================================================
+
+### Gaver_1993_WhatInTheWorldDoWeHear.pdf
+--------------------------------------------------------------------------------
+Title: What in the World Do We Hear?
+Authors: William W. Gaver
+Year: Not found
+Journal: Not found
+DOI: Not found
+
+Abstract (preview):
+Everyday listening is the experience of hearing events in the world rather than sounds per se. In this
+paper, I take an ecological approach to everyday listening in order to overcome constraints on its study
+implied by more traditional approaches. In particular, I am concerned with developing a new
+...
+
+First page preview:
+What in the World Do We Hear?
+An Ecological Approach to Auditory Event Perception
+William W. Gaver
+Rank Xerox Cambridge EuroPARC
+61 Regent Street, Cambridge, CB2 1AB, U.K.
+ABSTRACT
+Everyday listening is the experience of hearing events in the world rather than sounds per se. In this
+paper, I take an ecological approach to everyday listening in order to overcome constraints on its study
+implied by more traditional approaches. In particular, I am concerned with developing a new
+framework for describing sound in terms of audible source attributes. An examination of the
+continuum of structured energy from event to audition suggests that sound conveys information about
+events at locations in an environment. Qualitative descriptions of the physics of sound-producing
+events, complemented by protocol studies, suggest a tripartite division of sound-producing events into
+those involving vibrating solids, gasses, or liquids. Within each of these categories, basic level events
+are defined by the simple interactions that can cause these materials to sound, while more complex
+================================================================================
+
+### f010002_9780262269209.pdf
+--------------------------------------------------------------------------------
+Title: This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Authors: Auditory Scene Analysis
+Year: 2025
+Journal: Not found
+DOI: 10.7551/mitpress/1486.001.0001
+
+First page preview:
+This is a portion of the eBook at doi:10.7551/mitpress/1486.001.0001
+Auditory Scene Analysis
+Downloaded from http://direct.mit.edu/books/monograph/chapter-pdf/2444578/f010002_9780262269209.pdf by UNIV OF MELBOURNE user on 08 December 2025
+================================================================================
