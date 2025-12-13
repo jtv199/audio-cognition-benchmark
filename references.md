@@ -17,6 +17,7 @@
 | 4/5 | Broadbent, D. E. (1958). *Perception and Communication*. Pergamon Press. | Filter theory of attention. Basis for divided attention tasks. | - |
 | 4/5 | Scherer, K. R. (2003). Vocal communication of emotion: A review of research paradigms. *Speech Communication*, 40(1-2), 227-256. | Framework for paralinguistics and prosodic interpretation. Essential for Layer 3 inferential tasks. | - |
 | 3/5 | Ballas, J. A. (1993). Common factors in the identification of an assortment of brief everyday sounds. *Journal of Experimental Psychology: Human Perception and Performance*, 19(2), 250-267. | Causal reasoning from environmental sounds. Supports narrative sequence tasks. | - |
+| 4/5 | Baldwin, C. L. (2012). Auditory tasks in cognitive research. In *Auditory Cognition and Human Performance* (Chapter 6). CRC Press. | Comprehensive review of auditory tasks across cognitive domains. Critical emphasis on mental workload, presentation level (PL), and sensory-cognitive interaction. Covers working memory (listening span, n-back), attention (dichotic listening, PRP), and neuropsychological assessments (PASAT, RAVLT). Essential methodological guidance for auditory benchmark design. | `papers/Baldwin_Auditory_Tasks_in_Cognitive_Research_Chapter6.pdf` <br> Summary: `papers/reference-texts/Baldwin_2012_Auditory_Tasks_in_Cognitive_Research_Summary.md` |
 
 ## Existing AI Audio Benchmarks
 
@@ -25,6 +26,7 @@
 | 4/5 | AIR-Bench | Foundation vs. Chat tiers. Introduces "Mixed Audio" tasks. Key competitor for comparison. | - |
 | 4/5 | AudioBench | Standardizes audio tasks. Introduces "Speech Instruction" (spoken commands). | - |
 | 3/5 | MMAU | Focuses on "Expert Reasoning" with strict Multiple Choice format. Tests role mapping and emotion flip. | - |
+| 5/5 | Google MSEB (Massive Sound Embedding Benchmark) (2024+) | Tests 8 core capabilities: retrieval, reasoning, classification, transcription, segmentation, clustering, reranking, reconstruction. Includes Simple Voice Questions dataset (177k multilingual queries, 26 locales). Unique focus: single general-purpose embedding for all tasks. Model-agnostic evaluation framework. | Blog: https://research.google/blog/from-waveforms-to-wisdom-the-new-benchmark-for-auditory-intelligence/ |
 
 ## To Be Added
 
@@ -36,4 +38,4 @@
 
 ---
 
-*Last Updated: December 8, 2025*
+*Last Updated: December 12, 2025*
