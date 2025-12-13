@@ -4,7 +4,7 @@
 
 This project develops a comprehensive benchmark to evaluate Audio Large Language Models (AudioLLMs) on **higher-order reasoning tasks**, moving beyond simple transcription and classification. The core innovation is bridging the gap between what AI models currently excel at (**Perception** - identifying "dog bark") and what they struggle with (**Reasoning** - inferring "The dog is barking behind a wall, so I cannot see it").
 
-**Current Status**: Phase 1 - Literature Review & Taxonomy Mapping (90% Complete)
+**Current Status**: Phase 1 - Literature Review 
 
 **Repository**: https://github.com/jtv199/audio-cognition-benchmark
 
