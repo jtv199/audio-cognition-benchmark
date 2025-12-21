@@ -1,15 +1,16 @@
 # Taxonomy Overview: Leaf Nodes and Example Questions
 
-**Generated**: December 8, 2025
-**Purpose**: Map each leaf node from the Four Pillars taxonomies to concrete example questions and framework coverage
+**Generated**: December 8, 2025  
+**Updated**: December 21, 2025 (added P5: Atkinson-Shiffrin and P6: Baddeley cognitive models)  
+**Purpose**: Map each leaf node from the Six Pillars taxonomies to concrete example questions and framework coverage
 
 ---
 
 ## How to Use This Document
 
-This overview takes every **leaf node** (terminal concept) from the four taxonomies and provides:
+This overview takes every **leaf node** (terminal concept) from the six taxonomies and provides:
 1. **Example Question**: A concrete question that testing this capability would answer
-2. **Framework Coverage**: Which of the 4 Pillars encompass this capability
+2. **Framework Coverage**: Which of the 6 Pillars encompass this capability
 3. **Task Layer**: Where this maps to the benchmark (Layer 1, 2, or 3)
 
 **Framework Key:**
@@ -17,6 +18,8 @@ This overview takes every **leaf node** (terminal concept) from the four taxonom
 - **P2** = Pillar 2: Bregman (CASA/Grouping)
 - **P3** = Pillar 3: Rauschecker (Neuroscience/Architecture)
 - **P4** = Pillar 4: Katz (Clinical/APD)
+- **P5** = Pillar 5: Atkinson-Shiffrin (Memory Stages)
+- **P6** = Pillar 6: Baddeley (Working Memory Architecture)
 
 ---
 
@@ -150,6 +153,71 @@ This overview takes every **leaf node** (terminal concept) from the four taxonom
 
 ---
 
+## Pillar 5: Atkinson-Shiffrin Modal Model (Memory Stages)
+
+### Memory Flow Stages
+
+| Leaf Node | Example Question | Frameworks | Layer | Notes |
+|-----------|-----------------|------------|-------|-------|
+| **Echoic Memory (Short-term)** | "Can you detect a 200ms gap between two tones?" | P5, P3 (ventral) | 1 | Short-term auditory store (200-300ms) |
+| **Echoic Memory (Long-term)** | "Did you hear that sound 3 seconds ago?" | P5, P3 (ventral) | 1, 2 | Precategorical acoustic storage (2-4s) |
+| **Echoic Persistence** | "Can you still 'hear' the echo of what was just said?" | P5 | 1, 2 | Testing trace duration |
+| **Sensory → STM Transfer** | "Repeat these 3 digits immediately after hearing them." | P5, P6 | 1 | Transfer from echoic to working memory |
+| **STM Capacity** | "How many random digits can you repeat back?" | P5, P6 | 1, 2 | Digit span (typically 5-9 items) |
+| **STM Duration** | "Can you remember this number for 15 seconds without rehearsal?" | P5, P6 | 2 | Decay without maintenance (~15-30s) |
+| **Rehearsal Process** | "Keep repeating this phone number silently until I ask for it." | P5, P6 | 2 | Maintenance rehearsal to prevent decay |
+| **STM → LTM Encoding** | "Can you recall the words from the list I gave you 10 minutes ago?" | P5, P6 | 2, 3 | Long-term consolidation |
+| **LTM Retrieval** | "Do you recognize this voice from earlier in the session?" | P5, P6, P3 (ventral) | 2, 3 | Accessing stored representations |
+| **Acoustic vs Semantic Coding** | "Did I say 'cat' or 'hat'?" (acoustic) vs "Did I mention an animal?" (semantic) | P5, P6 | 2, 3 | Different encoding formats in memory |
+
+---
+
+## Pillar 6: Baddeley's Working Memory Model (Cognitive Architecture)
+
+### Central Executive
+
+| Leaf Node | Example Question | Frameworks | Layer | Notes |
+|-----------|-----------------|------------|-------|-------|
+| **Attention Control** | "Listen to the speaker while ignoring background music." | P6, P2 (attention), P4 (TFM) | 2 | Selective attention management |
+| **Task Switching** | "Switch from counting words to counting syllables." | P6, P4 (organization) | 2, 3 | Cognitive flexibility |
+| **Dual-Task Coordination** | "Can you tap a rhythm while listening to a story?" | P6, P3 (dorsal) | 2 | Managing multiple concurrent tasks |
+| **Inhibition** | "Ignore the 'beep' and only respond to the 'boop'." | P6, P2 (attention) | 2 | Suppressing irrelevant stimuli |
+| **Updating** | "Keep track of the last 3 words you heard." | P6, P4 (organization) | 2 | Continuous refresh of information |
+
+### Phonological Loop
+
+| Leaf Node | Example Question | Frameworks | Layer | Notes |
+|-----------|-----------------|------------|-------|-------|
+| **Phonological Store** | "Repeat these 6 digits: 7-3-9-1-5-8" | P6, P5, P3 (ventral) | 1 | Passive verbal buffer (~2s capacity) |
+| **Store Capacity** | "How many words can you hold before forgetting?" | P6, P5 | 1, 2 | Individual differences (2-5 items) |
+| **Articulatory Rehearsal** | "Silently repeat this list to remember it." | P6, P5 | 2 | Active maintenance through subvocalization |
+| **Word Length Effect** | "Which is easier: 'cat, dog, pig' or 'hippopotamus, elephant, rhinoceros'?" | P6 | 2 | Longer words = worse recall (rehearsal time) |
+| **Phonological Similarity** | "Recall: B, V, D, T, P (vs F, K, L, R, S)" | P6, P3 (ventral), P4 (decoding) | 1, 2 | Acoustic confusion errors |
+| **Articulatory Suppression** | "Try to remember words while saying 'the-the-the' repeatedly." | P6 | 2 | Blocking rehearsal mechanism |
+| **Irrelevant Speech Effect** | "Remember these numbers while someone talks nearby." | P6, P2 (attention), P4 (TFM) | 2 | Background speech disrupts phonological store |
+| **Suffix Effect** | "Does saying 'recall' at the end hurt your memory?" | P6, P5 | 2 | Post-list speech interferes with recency |
+| **Modality Effect** | "Is it easier to remember spoken or written words?" | P6, P5, P3 (ventral) | 2 | Auditory advantage for recent items |
+| **Speech Auto-Access** | "Can speech enter your memory even when you're busy?" | P6, P3 (ventral) | 2 | Automatic phonological loop engagement |
+
+### Visuospatial Sketchpad
+
+| Leaf Node | Example Question | Frameworks | Layer | Notes |
+|-----------|-----------------|------------|-------|-------|
+| **Spatial Imagery** | "Imagine the path you'd take from left to right speaker." | P6, P3 (dorsal) | 2 | Mental spatial representation |
+| **Spatial Sequence** | "Remember the pattern: left-right-center-left-right." | P6, P3 (dorsal), P4 (organization) | 2 | Auditory-spatial working memory |
+| **Cross-Modal Integration** | "Does the visual location match where you heard the sound?" | P6, P3 (dorsal), P4 (integration) | 2, 3 | Audio-visual correspondence |
+
+### Complex Span (Multi-Component Tasks)
+
+| Leaf Node | Example Question | Frameworks | Layer | Notes |
+|-----------|-----------------|------------|-------|-------|
+| **Listening Span** | "Judge if each sentence makes sense AND remember the last word of each." | P6, P5, P3 (ventral), P4 (decoding, organization) | 2, 3 | Processing + storage coordination |
+| **Auditory N-Back** | "Press when you hear the same word as 2 items ago." | P6, P5, P4 (organization) | 2, 3 | Continuous updating task |
+| **Operation Span (Auditory)** | "Verify 'Is 3+2=6?' and remember the word 'tree'." | P6 | 2, 3 | Math + storage dual-task |
+| **Reading Span (Auditory)** | "Listen to sentences, judge sensibility, recall target words." | P6, P3 (ventral), P4 (decoding) | 2, 3 | Language processing + storage |
+
+---
+
 ## Cross-Cutting Capabilities (Multiple Leaf Nodes)
 
 These questions require integration across multiple leaf nodes and pillars:
@@ -164,6 +232,11 @@ These questions require integration across multiple leaf nodes and pillars:
 | **Phonemic Restoration** | "Can you understand this sentence even though parts of it are replaced by noise?" | Prior Learning/Schemas, Decoding, Organization, Speech Perception | P2, P3, P4 | 2, 3 |
 | **Environmental Reasoning** | "Based on the sounds you hear, where are you: kitchen, bathroom, or garage?" | Impact, Pouring, Aerodynamic Flow, Categorization, Organization | P1, P2, P3, P4 | 3 |
 | **Auditory Streaming Under Load** | "Can you follow two melodies playing at the same time?" | Frequency Proximity, Temporal Continuity, Voluntary Attention, Organization | P2, P3, P4 | 2 |
+| **Working Memory Under Degradation** | "Can you remember a sentence spoken in noise?" | Phonological Store, TFM, Echoic Memory, Attention Control | P4, P5, P6 | 2, 3 |
+| **Serial Recall with Interference** | "Repeat these digits while someone says random words." | Phonological Loop, Irrelevant Speech Effect, STM Capacity, TFM | P4, P5, P6 | 2 |
+| **Complex Span with Noise** | "Judge sentence plausibility AND remember words, all in background noise." | Listening Span, Central Executive, TFM, Speech Perception | P3, P4, P6 | 3 |
+| **Memory-Guided Localization** | "Point to where you heard the sound 3 seconds ago." | Echoic Memory, Sound Localization, STM, Visuospatial Sketchpad | P3, P5, P6 | 2, 3 |
+| **Encoding Strategy Use** | "Can you remember more words if you organize them into categories?" | LTM Encoding, Organization, Central Executive | P4, P5, P6 | 3 |
 
 ---
 
@@ -177,16 +250,18 @@ These questions require integration across multiple leaf nodes and pillars:
 | **P2 (Bregman)** | 16 | Grouping mechanisms, attention |
 | **P3 (Rauschecker)** | 28 | Neural processing, streams |
 | **P4 (Katz)** | 16 | Clinical deficits, stress tests |
-| **Cross-Cutting** | 8 | Integration across pillars |
-| **Total** | 88 | Comprehensive coverage |
+| **P5 (Atkinson-Shiffrin)** | 10 | Memory stages, encoding/retrieval flow |
+| **P6 (Baddeley)** | 27 | Working memory architecture, executive control |
+| **Cross-Cutting** | 14 | Integration across pillars |
+| **Total** | 131 | Comprehensive coverage |
 
 ### Coverage by Task Layer
 
 | Layer | Number of Questions | Percentage |
 |-------|-------------------|------------|
-| **Layer 1: Foundational** | 42 | 47.7% |
-| **Layer 2: Cognitive Control** | 35 | 39.8% |
-| **Layer 3: Inferential** | 32 | 36.4% |
+| **Layer 1: Foundational** | 54 | 43.2% |
+| **Layer 2: Cognitive Control** | 74 | 59.2% |
+| **Layer 3: Inferential** | 46 | 36.8% |
 
 *Note: Some questions span multiple layers*
 
@@ -198,7 +273,9 @@ These questions require integration across multiple leaf nodes and pillars:
 | **Bregman** | Grouping Principles | 8 |
 | **Rauschecker** | Neural Functions (Ventral + Dorsal) | 14 |
 | **Katz** | APD Categories | 4 |
-| **Total Leaf Nodes** | | 35 |
+| **Atkinson-Shiffrin** | Memory Stages (Echoic, STM, LTM) | 10 |
+| **Baddeley** | WM Components (CE, Phono Loop, Visuospatial, Complex) | 27 |
+| **Total Leaf Nodes** | | 72 |
 
 ---
 
@@ -213,6 +290,9 @@ Based on this leaf node analysis, benchmark tasks should:
 5. **Ecological Validity**: Ground questions in real-world scenarios (P1)
 6. **Mechanism Validity**: Test both primitive and schema-based processes (P2)
 7. **Neural Plausibility**: Respect ventral/dorsal stream separation (P3)
+8. **Memory Stage Awareness**: Consider temporal persistence (P5) - test within echoic window vs. beyond it
+9. **Working Memory Load**: Systematically vary load on phonological loop, visuospatial, and executive components (P6)
+10. **Storage vs. Processing**: Separate tasks testing passive storage from those requiring active manipulation (P5, P6)
 
 ---
 
@@ -224,8 +304,8 @@ Based on this leaf node analysis, benchmark tasks should:
 - Combine multiple leaf nodes for complex tasks
 
 **For Validation:**
-- Check that your benchmark covers all 35 leaf nodes
-- Ensure representation across all 4 frameworks
+- Check that your benchmark covers all 72 leaf nodes
+- Ensure representation across all 6 frameworks
 - Balance across the 3 task layers
 
 **For Analysis:**

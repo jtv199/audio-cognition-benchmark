@@ -1,18 +1,19 @@
 # Benchmark Task Tables: Complete Task Lists
 
-**Generated**: December 8, 2025
-**Purpose**: Comprehensive task-by-task breakdown of all three comparison benchmarks
-**Source**: Official papers and documentation for AIR-Bench, AudioBench, and MMAU-Pro
+**Generated**: December 21, 2025
+**Purpose**: Comprehensive task-by-task breakdown of all comparison benchmarks
+**Source**: Official papers and documentation for AIR-Bench, AudioBench, MMAU-Pro, and MMAR
 
 ---
 
 ## Document Structure
 
-This document provides **complete task tables** for each of the three benchmarks used in our comparison analysis:
+This document provides **complete task tables** for each of the benchmarks used in our comparison analysis:
 
 1. **B1: AIR-Bench** - 19 foundation tasks
 2. **B2: AudioBench** - 8 tasks across 26 datasets
 3. **B3: MMAU-Pro** - 49 skills across multiple dimensions
+4. **B4: MMAR** - 16 sub-categories across 4 reasoning layers
 
 For each benchmark, we provide:
 - Complete task enumeration
@@ -233,6 +234,88 @@ For each benchmark, we provide:
 
 ---
 
+## Benchmark 4 (B4): MMAR
+
+**Full Name**: MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix
+**Source**: Ma, Z., Ma, Y., Zhu, Y., et al. (2025). *Preprint*. [arXiv:2505.13032](https://arxiv.org/abs/2505.13032)
+**Verified**: December 21, 2025 (from arXiv paper)
+**Local File**: `../papers/benchmark/Ma_2025_MMAR_arXiv2505.13032.pdf`
+**GitHub**: [https://github.com/ddlBoJack/MMAR](https://github.com/ddlBoJack/MMAR)
+
+### Overview
+
+MMAR comprises **1,000 meticulously curated audio-question-answer triplets** designed to evaluate deep reasoning capabilities. Unlike other benchmarks, MMAR:
+- Focuses on **deep multi-step reasoning** (not surface-level understanding)
+- Includes **real-world mixed-modality** audio (not artificially synthesized)
+- Requires **graduate-level perceptual and domain-specific knowledge**
+- Provides **Chain-of-Thought (CoT) annotations** for each question
+
+### 4 Hierarchical Reasoning Layers, 16 Sub-Categories
+
+#### Signal Layer (3 sub-categories)
+*Focus: Direct analysis of raw acoustic features (frequency, amplitude, duration, rhythm, silence)*
+
+| Task ID | Sub-Category | Description | Example Question |
+|---------|--------------|-------------|------------------|
+| **B4.T1** | Acoustic Quality Analysis | Analyzing physical acoustic properties like pitch, frequency, resonance | "During which attempt is the extended length of the metal ruler longest?" (lowest pitch = longest extension) |
+| **B4.T2** | Anomaly Detection | Detecting audio anomalies, distortions, or out-of-place sounds | "Is the scream in the audio from the music?" |
+| **B4.T3** | Audio Difference Analysis | Distinguishing between similar audio sources or comparing acoustic properties | "What type of keyboard made the first sound?" (clicky vs linear vs tactile) |
+
+#### Perception Layer (6 sub-categories)
+*Focus: Interpreting perceptual patterns beyond raw signal analysis*
+
+| Task ID | Sub-Category | Description | Example Question |
+|---------|--------------|-------------|------------------|
+| **B4.T4** | Spatial Analysis | Localizing sound sources, direction, distance estimation | "Is the boat approaching or moving away?" |
+| **B4.T5** | Temporal Analysis | Reasoning about timing, sequence, or temporal patterns | "Where is the sports game being watched?" (TV click sound indicates television) |
+| **B4.T6** | Correlation Analysis | Linking audio events to physical or emotional states | "Does the person in the audio find the hotpot spicy?" |
+| **B4.T7** | Counting and Statistics | Counting occurrences, estimating quantities from audio | "Into how many pieces is the potato cut?" (count chopping sounds) |
+| **B4.T8** | Music Theory | Applying music theory knowledge to audio analysis | "Identify the musical period" (Baroque, Classical, Romantic, Modern) |
+| **B4.T9** | Environmental Perception and Reasoning | Inferring environment/location from audio context | "Where did this happen?" (bank robbery cues) |
+
+#### Semantic Layer (3 sub-categories)
+*Focus: Understanding meaning or intent behind audio content*
+
+| Task ID | Sub-Category | Description | Example Question |
+|---------|--------------|-------------|------------------|
+| **B4.T10** | Content Analysis | Extracting factual information from speech/audio content | "What is Gray's mother's name?" |
+| **B4.T11** | Emotion and Intention | Interpreting emotional states, intentions, or attitudes | "Who is missing?" (detecting concern in voice) |
+| **B4.T12** | Speaker Analysis | Analyzing speaker identity, role, or statements | "Who is faster now?" (identifying speaker claims) |
+
+#### Cultural Layer (4 sub-categories)
+*Focus: Higher-order reasoning grounded in social, cultural, or contextual knowledge*
+
+| Task ID | Sub-Category | Description | Example Question |
+|---------|--------------|-------------|------------------|
+| **B4.T13** | Culture of Speaker | Understanding cultural or linguistic knowledge | "How many different Chinese tones are demonstrated across the six syllables?" |
+| **B4.T14** | Imagination | Counterfactual or hypothetical reasoning from audio | "What would he have seen if he had arrived earlier?" |
+| **B4.T15** | Aesthetic Analysis | Evaluating artistic quality or performance | "Among the four piano passages, which one is the best?" |
+| **B4.T16** | Professional Knowledge and Reasoning | Applying domain-specific expertise | "What is the relationship between the composers of the three musical pieces?" |
+
+### Modality Coverage (7 types)
+
+| Modality | Percentage | Description |
+|----------|------------|-------------|
+| Speech | 29.4% | Single-speaker or dialogue speech |
+| Mix-Sound-Speech | 21.8% | Environmental sounds with speech |
+| Music | 20.6% | Instrumental or vocal music |
+| Sound | 16.5% | Environmental/sound effects only |
+| Mix-Music-Speech | 8.2% | Music with speech/vocals |
+| Mix-Sound-Music-Speech | 2.4% | All three modalities combined |
+| Mix-Sound-Music | 1.1% | Sound effects with music |
+
+### Key Performance Findings
+
+**State-of-the-Art Results** (from paper):
+- **Gemini 2.0 Flash** (best overall): 65.6% accuracy
+- **Qwen-2.5-Omni 7B** (best open-source): 56.7% accuracy
+- **GPT-4o Audio**: 63.5% accuracy
+- **Random Guess Baseline**: 29.3% accuracy
+
+**Critical Finding**: None of the evaluated open-source LALMs perform significantly better than random guessing, highlighting MMAR's emphasis on deep reasoning beyond surface-level audio understanding.
+
+---
+
 ## Cross-Benchmark Task Comparison
 
 ### Task Count Summary
@@ -242,25 +325,28 @@ For each benchmark, we provide:
 | **B1: AIR-Bench** | 19 foundation + chat tier | 9 tasks | 4 tasks | 6 tasks | 2-tier structure |
 | **B2: AudioBench** | 8 tasks, 26 datasets | 4 tasks (15 datasets) | 2 tasks (5 datasets) | 0 tasks | 3 tasks (6 datasets) paralinguistics |
 | **B3: MMAU-Pro** | 38 skills (Tables 7-12) + 7 dimensions | 16 skills (8 perceptual + 8 reasoning) | 8 skills (3 perceptual + 5 reasoning) | 14 skills (7 perceptual + 7 reasoning) | 7 cross-cutting dimensions |
+| **B4: MMAR** | 16 sub-categories, 4 layers, 1000 questions | 29.4% speech, 30% mixed-speech | 16.5% sound, 22.9% mixed-sound | 20.6% music, 11.7% mixed-music | Mixed-modality focus, CoT annotations |
 
-**Note**: B3 paper claims 49 total skills; Tables 7-12 explicitly enumerate 38. The 7 novel dimensions are testing modalities, not separate skills.
+**Notes**: 
+- B3 paper claims 49 total skills; Tables 7-12 explicitly enumerate 38. The 7 novel dimensions are testing modalities, not separate skills.
+- B4 uniquely focuses on deep multi-step reasoning with real-world mixed-modality audio.
 
 ### Layer Coverage Comparison
 
-| Layer | B1 (AIR-Bench) | B2 (AudioBench) | B3 (MMAU-Pro) |
-|-------|---------------|----------------|---------------|
-| **L1 (Foundational)** | ✓ Strong (15/19 tasks) | ✓ Strong (6/8 tasks) | ✓ Very Strong (18 perceptual skills: 7 music + 3 sound + 8 speech) |
-| **L2 (Cognitive Control)** | ⚠ Weak (implicit in mixed audio) | ⚠ Weak (ASR noise testing only) | ✓ Strong (long-form 10min dimension, multi-audio dimension, instruction following dimension, spatial audio dimension) |
-| **L3 (Inferential)** | ⚠ Moderate (QA tasks, emotion) | ⚠ Moderate (SQA, AQA) | ✓ Very Strong (20 reasoning skills: 7 music + 5 sound + 8 speech) |
+| Layer | B1 (AIR-Bench) | B2 (AudioBench) | B3 (MMAU-Pro) | B4 (MMAR) |
+|-------|---------------|----------------|---------------|-----------|
+| **L1 (Foundational)** | ✓ Strong (15/19 tasks) | ✓ Strong (6/8 tasks) | ✓ Very Strong (18 perceptual skills) | ✓ Signal + Perception layers (9 sub-categories) |
+| **L2 (Cognitive Control)** | ⚠ Weak (implicit in mixed audio) | ⚠ Weak (ASR noise testing only) | ✓ Strong (long-form, multi-audio, spatial) | ✓ Strong (mixed-modality, multi-step reasoning required) |
+| **L3 (Inferential)** | ⚠ Moderate (QA tasks, emotion) | ⚠ Moderate (SQA, AQA) | ✓ Very Strong (20 reasoning skills) | ✓ Very Strong (Semantic + Cultural layers, graduate-level) |
 
 ### Framework Coverage Comparison
 
-| Framework | B1 (AIR-Bench) | B2 (AudioBench) | B3 (MMAU-Pro) |
-|-----------|---------------|----------------|---------------|
-| **P1: Ecological** | ⚠ Weak (scene classification only) | ⚠ Weak (AQA may include) | ✓ Strong (Material sounds, Acoustic scene, Eco-acoustic knowledge) |
-| **P2: CASA** | ⚠ Weak (implicit stream segregation) | ⚠ Weak (implicit in multi-speaker) | ✓ Strong (Auditory source separation, Multi-audio, Turn-taking) |
-| **P3: Neuro** | ✓ Strong (ventral stream focus) | ✓ Moderate (ventral focus, dorsal weak) | ✓ Very Strong (balanced ventral + dorsal via spatial audio) |
-| **P4: Clinical** | ✗ Very Weak | ⚠ Weak (noise in ASR) | ✓ Strong (Long-form audio = working memory stress test) |
+| Framework | B1 (AIR-Bench) | B2 (AudioBench) | B3 (MMAU-Pro) | B4 (MMAR) |
+|-----------|---------------|----------------|---------------|-----------|
+| **P1: Ecological** | ⚠ Weak (scene classification only) | ⚠ Weak (AQA may include) | ✓ Strong (Material sounds, Acoustic scene) | ✓ Strong (Environmental Perception, real-world audio) |
+| **P2: CASA** | ⚠ Weak (implicit stream segregation) | ⚠ Weak (implicit in multi-speaker) | ✓ Strong (Multi-audio, Turn-taking) | ✓ Very Strong (mixed-modality requires source segregation) |
+| **P3: Neuro** | ✓ Strong (ventral stream focus) | ✓ Moderate (ventral focus, dorsal weak) | ✓ Very Strong (balanced ventral + dorsal) | ✓ Strong (Spatial Analysis = dorsal; Content = ventral) |
+| **P4: Clinical** | ✗ Very Weak | ⚠ Weak (noise in ASR) | ✓ Strong (Long-form audio) | ✓ Moderate (multi-step reasoning tests working memory) |
 
 ---
 
@@ -284,6 +370,13 @@ For each benchmark, we provide:
    - Local file: `../papers/benchmark/MMAU-Pro_2508.13992v1.pdf`
    - Verified: All 38 skills from Tables 7-12 (Appendix E) extracted and verified December 8, 2025
    - See also: [mmau-pro-skills-from-paper.md](mmau-pro-skills-from-paper.md) for complete skill extraction details
+
+4. **MMAR**:
+   - Paper: [arXiv:2505.13032](https://arxiv.org/abs/2505.13032)
+   - GitHub: [https://github.com/ddlBoJack/MMAR](https://github.com/ddlBoJack/MMAR)
+   - Local file: `../papers/benchmark/Ma_2025_MMAR_arXiv2505.13032.pdf`
+   - Extracted text: `../papers/extracted_text/MMAR_2505.13032v1.txt`
+   - Verified: All 16 sub-categories from Appendix A extracted and verified December 21, 2025
 
 ### Cross-Reference Documents
 

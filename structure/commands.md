@@ -1,6 +1,6 @@
 # Research Commands & Procedures
 
-**Last Updated**: December 8, 2025
+**Last Updated**: December 21, 2025
 
 ---
 
@@ -24,11 +24,6 @@
   - Abstract or key concepts
 
 #### Step 2: Classify & Rate
-- **Determine relevance** to the 4 Pillars:
-  1. Ecological Psychology (Physics View)
-  2. CASA (Grouping View)
-  3. Cognitive Neuroscience (Architecture View)
-  4. Clinical Audiology (Stress-Test View)
 - **Assign importance rating** (X/5):
   - 5/5: Foundational (defines core framework)
   - 4/5: High importance (essential concepts)
@@ -79,7 +74,6 @@
   - Limitations or gaps
 
 - **Note connections**:
-  - How does this paper relate to the 4 Pillars?
   - Does it support, extend, or contradict existing framework?
   - What new perspectives does it offer?
 
@@ -88,11 +82,11 @@
 ## Processing Workflow Summary
 
 ```
-INPUT: Unprocessed PDF in papers/input/
+INPUT: Unprocessed PDF in input/
   ↓
 STEP 1: Read → Extract metadata & abstract
   ↓
-STEP 2: Classify → Rate importance, map to pillars/layers
+STEP 2: Classify → Rate importance, map to task layers
   ↓
 STEP 3: Rename → Author_Year_ShortTitle.pdf
   ↓
@@ -124,7 +118,7 @@ OUTPUT: Processed, cataloged, integrated paper
 - Example: `Smith_2025_AudioTokenization_arXiv2505.16845.pdf`
 
 ### Unknown/Unidentified Papers
-- Keep in `papers/input/` or mark as "⚠ Needs Review" in local-references
+- Keep in `input/` or mark as "⚠ Needs Review" in local-references
 - Process identification separately before full processing
 
 ---
@@ -134,7 +128,6 @@ OUTPUT: Processed, cataloged, integrated paper
 Before marking a paper as "✓ Read & Summarized":
 - [ ] Metadata fully extracted (authors, year, title, journal)
 - [ ] Importance rating assigned with justification
-- [ ] Relevance to 4 Pillars documented
 - [ ] File renamed following convention
 - [ ] File moved to appropriate directory
 - [ ] `local-references.md` updated
