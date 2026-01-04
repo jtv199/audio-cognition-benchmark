@@ -1,5 +1,5 @@
 # Audio Benchmark Tasks - Flat List
-# Source: AIR-Bench, AudioBench, MMAU-Pro, MMAR, CAB (Clinical Human Baselines)
+# Source: AIR-Bench, AudioBench, MMAU-Pro, CAB (Clinical Human Baselines)
 # Format: task_id, name, description, example_question
 
 tasks:
@@ -343,95 +343,6 @@ tasks:
     name: Other (Speech)
     description: Miscellaneous reasoning tasks not covered above
     example: "Which city is the opponent from?"
-
-  # ============================================
-  # MMAR (B4) - 16 sub-categories across 4 layers
-  # Source: Ma et al. 2025 - arXiv:2505.13032
-  # ============================================
-  
-  # Signal Layer (3 sub-categories)
-  - id: B4.T1
-    name: Acoustic Quality Analysis
-    description: Analyzing physical acoustic properties like pitch, frequency, resonance
-    example: "During which attempt is the extended length of the metal ruler longest?"
-
-  - id: B4.T2
-    name: Anomaly Detection
-    description: Detecting audio anomalies, distortions, or out-of-place sounds
-    example: "Is the scream in the audio from the music?"
-
-  - id: B4.T3
-    name: Audio Difference Analysis
-    description: Distinguishing between similar audio sources or comparing acoustic properties
-    example: "What type of keyboard made the first sound?"
-
-  # Perception Layer (6 sub-categories)
-  - id: B4.T4
-    name: Spatial Analysis
-    description: Localizing sound sources, direction, distance estimation
-    example: "Is the boat approaching or moving away?"
-
-  - id: B4.T5
-    name: Temporal Analysis
-    description: Reasoning about timing, sequence, or temporal patterns
-    example: "Where is the sports game being watched?"
-
-  - id: B4.T6
-    name: Correlation Analysis
-    description: Linking audio events to physical or emotional states
-    example: "Does the person in the audio find the hotpot spicy?"
-
-  - id: B4.T7
-    name: Counting and Statistics
-    description: Counting occurrences, estimating quantities from audio
-    example: "Into how many pieces is the potato cut?"
-
-  - id: B4.T8
-    name: Music Theory
-    description: Applying music theory knowledge to audio analysis
-    example: "Identify the musical period"
-
-  - id: B4.T9
-    name: Environmental Perception and Reasoning
-    description: Inferring environment/location from audio context
-    example: "Where did this happen?"
-
-  # Semantic Layer (3 sub-categories)
-  - id: B4.T10
-    name: Content Analysis
-    description: Extracting factual information from speech/audio content
-    example: "What is Gray's mother's name?"
-
-  - id: B4.T11
-    name: Emotion and Intention
-    description: Interpreting emotional states, intentions, or attitudes
-    example: "Who is missing?"
-
-  - id: B4.T12
-    name: Speaker Analysis
-    description: Analyzing speaker identity, role, or statements
-    example: "Who is faster now?"
-
-  # Cultural Layer (4 sub-categories)
-  - id: B4.T13
-    name: Culture of Speaker
-    description: Understanding cultural or linguistic knowledge
-    example: "How many different Chinese tones are demonstrated across the six syllables?"
-
-  - id: B4.T14
-    name: Imagination
-    description: Counterfactual or hypothetical reasoning from audio
-    example: "What would he have seen if he had arrived earlier?"
-
-  - id: B4.T15
-    name: Aesthetic Analysis
-    description: Evaluating artistic quality or performance
-    example: "Among the four piano passages, which one is the best?"
-
-  - id: B4.T16
-    name: Professional Knowledge and Reasoning
-    description: Applying domain-specific expertise
-    example: "What is the relationship between the composers of the three musical pieces?"
 
   # ============================================
   # CAB - Clinical Auditory Processing (Human Baselines)

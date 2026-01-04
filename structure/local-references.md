@@ -1,6 +1,6 @@
 # Local References
 
-**Last Updated**: December 8, 2025
+**Last Updated**: December 29, 2025
 
 This document catalogs all research papers that have been downloaded and processed locally. Papers are organized by project area and include importance ratings, relevance to the 4 Pillars, and processing status.
 
@@ -39,6 +39,12 @@ This document catalogs all research papers that have been downloaded and process
 | Importance | Reference | Notes | File Path | Status |
 |------------|-----------|-------|-----------|--------|
 | 3/5 | Katz, J. (2025). The Buffalo Model—a comprehensive approach to evaluate and remediate auditory processing disorders. *Audiology Today*, 37(1), 18-25. | Modern retrospective article about the Buffalo Model (original: Katz 1992). Describes 4 diagnostic categories: Decoding, Tolerance-Fading Memory, Integration, Organization. Useful for understanding model development, but **NOT the original 1992 foundational paper**. | `papers/benchmark/Katz_2025_BuffaloModelRetrospective.pdf` | ✓ Read & Summarized |
+
+### General Frameworks
+
+| Importance | Reference | Notes | File Path | Status |
+|------------|-----------|-------|-----------|--------|
+| 5/5 | Sumers, T. R., Yao, S., Narasimhan, K., & Griffiths, T. L. (2024). Cognitive Architectures for Language Agents. *Transactions on Machine Learning Research*. | **Foundational Framework**. Proposes CoALA (Cognitive Architectures for Language Agents). It's an 'agentic OS' that orchestrates an LLM using explicit Memory modules (Working, Episodic, Semantic, Procedural) and a Decision Cycle (perceive-plan-act). Highly relevant for designing AI architectures for audio reasoning tasks. | `papers/benchmark/Sumers_2024_CognitiveArchitecturesForLanguageAgents.pdf` | ✓ Read & Summarized |
 
 ---
 

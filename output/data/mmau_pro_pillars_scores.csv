@@ -1,0 +1,313 @@
+Model,Category,Score,Baddeley,P1_Eco,P2_CASA,P3_Neuro,P4_Katz,P5_Atkinson
+Human,Sound,78.2,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Human,Music,70.5,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Human,Speech,82.3,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Human,Sound-Music,79.3,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Human,Speech-Music,78.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Human,Speech-Sound,82.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Human,Sound-Music-Speech,85.7,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Human,Spatial,88.2,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Human,Voice,68.4,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Human,Multi-Audio,79.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Human,Open-ended,77.3,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Human,IF,100.0,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+SALMONN 7B,Sound,32.2,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+SALMONN 7B,Music,44.9,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+SALMONN 7B,Speech,38.3,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+SALMONN 7B,Sound-Music,22.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+SALMONN 7B,Speech-Music,34.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+SALMONN 7B,Speech-Sound,28.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+SALMONN 7B,Sound-Music-Speech,28.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+SALMONN 7B,Spatial,26.5,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+SALMONN 7B,Voice,36.5,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+SALMONN 7B,Multi-Audio,11.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+SALMONN 7B,Open-ended,31.2,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+SALMONN 7B,IF,33.9,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+SALMONN 13B,Sound,43.6,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+SALMONN 13B,Music,47.2,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+SALMONN 13B,Speech,37.3,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+SALMONN 13B,Sound-Music,28.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+SALMONN 13B,Speech-Music,47.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+SALMONN 13B,Speech-Sound,38.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+SALMONN 13B,Sound-Music-Speech,42.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+SALMONN 13B,Spatial,30.8,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+SALMONN 13B,Voice,53.2,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+SALMONN 13B,Multi-Audio,17.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+SALMONN 13B,Open-ended,33.6,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+SALMONN 13B,IF,38.5,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+GAMA,Sound,45.4,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+GAMA,Music,41.2,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+GAMA,Speech,29.8,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+GAMA,Sound-Music,24.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+GAMA,Speech-Music,27.9,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GAMA,Speech-Sound,27.3,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GAMA,Sound-Music-Speech,14.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GAMA,Spatial,12.0,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+GAMA,Voice,28.4,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+GAMA,Multi-Audio,20.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GAMA,Open-ended,24.2,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+GAMA,IF,31.7,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+DeSTA2,Sound,31.0,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+DeSTA2,Music,43.3,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+DeSTA2,Speech,46.5,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+DeSTA2,Sound-Music,32.6,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+DeSTA2,Speech-Music,47.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+DeSTA2,Speech-Sound,39.7,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+DeSTA2,Sound-Music-Speech,42.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+DeSTA2,Spatial,32.6,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+DeSTA2,Voice,54.8,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+DeSTA2,Multi-Audio,13.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+DeSTA2,Open-ended,25.4,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+DeSTA2,IF,41.5,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+DeSTA2.5-Audio,Sound,35.7,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+DeSTA2.5-Audio,Music,48.2,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+DeSTA2.5-Audio,Speech,49.9,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+DeSTA2.5-Audio,Sound-Music,22.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+DeSTA2.5-Audio,Speech-Music,36.9,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+DeSTA2.5-Audio,Speech-Sound,35.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+DeSTA2.5-Audio,Sound-Music-Speech,28.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+DeSTA2.5-Audio,Spatial,28.0,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+DeSTA2.5-Audio,Voice,51.0,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+DeSTA2.5-Audio,Multi-Audio,19.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+DeSTA2.5-Audio,Open-ended,36.4,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+DeSTA2.5-Audio,IF,46.5,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+BAT,Sound,28.9,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+BAT,Music,22.7,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+BAT,Speech,25.9,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+BAT,Sound-Music,30.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+BAT,Speech-Music,23.9,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+BAT,Speech-Sound,25.0,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+BAT,Sound-Music-Speech,14.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+BAT,Spatial,23.7,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+BAT,Voice,24.5,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+BAT,Multi-Audio,20.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+BAT,Open-ended,24.6,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+BAT,IF,31.8,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Audio Flamingo 2,Sound,39.5,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Audio Flamingo 2,Music,55.7,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Audio Flamingo 2,Speech,43.0,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Audio Flamingo 2,Sound-Music,36.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Audio Flamingo 2,Speech-Music,34.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio Flamingo 2,Speech-Sound,29.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio Flamingo 2,Sound-Music-Speech,14.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio Flamingo 2,Spatial,44.1,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Audio Flamingo 2,Voice,37.2,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Audio Flamingo 2,Multi-Audio,15.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio Flamingo 2,Open-ended,43.2,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Audio Flamingo 2,IF,29.6,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Phi4-MM,Sound,25.7,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Phi4-MM,Music,47.8,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Phi4-MM,Speech,47.6,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Phi4-MM,Sound-Music,30.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Phi4-MM,Speech-Music,39.1,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Phi4-MM,Speech-Sound,30.1,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Phi4-MM,Sound-Music-Speech,28.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Phi4-MM,Spatial,39.7,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Phi4-MM,Voice,42.7,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Phi4-MM,Multi-Audio,11.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Phi4-MM,Open-ended,42.5,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Phi4-MM,IF,65.4,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Kimi-Audio,Sound,46.0,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Kimi-Audio,Music,57.6,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Kimi-Audio,Speech,52.2,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Kimi-Audio,Sound-Music,46.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Kimi-Audio,Speech-Music,54.3,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Kimi-Audio,Speech-Sound,48.9,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Kimi-Audio,Sound-Music-Speech,42.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Kimi-Audio,Spatial,43.7,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Kimi-Audio,Voice,50.6,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Kimi-Audio,Multi-Audio,17.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Kimi-Audio,Open-ended,34.5,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Kimi-Audio,IF,42.3,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Audio Flamingo 3,Sound,55.9,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Audio Flamingo 3,Music,61.7,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Audio Flamingo 3,Speech,58.8,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Audio Flamingo 3,Sound-Music,40.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Audio Flamingo 3,Speech-Music,41.3,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio Flamingo 3,Speech-Sound,47.7,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio Flamingo 3,Sound-Music-Speech,57.1,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio Flamingo 3,Spatial,26.8,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Audio Flamingo 3,Voice,58.6,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Audio Flamingo 3,Multi-Audio,26.0,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio Flamingo 3,Open-ended,44.2,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Audio Flamingo 3,IF,33.3,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Gemma-3n-E2B-it,Sound,40.1,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Gemma-3n-E2B-it,Music,44.1,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Gemma-3n-E2B-it,Speech,41.3,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Gemma-3n-E2B-it,Sound-Music,26.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Gemma-3n-E2B-it,Speech-Music,33.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemma-3n-E2B-it,Speech-Sound,30.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemma-3n-E2B-it,Sound-Music-Speech,28.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemma-3n-E2B-it,Spatial,12.0,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Gemma-3n-E2B-it,Voice,51.4,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Gemma-3n-E2B-it,Multi-Audio,11.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemma-3n-E2B-it,Open-ended,23.2,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Gemma-3n-E2B-it,IF,29.6,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Gemma-3n-E4B-it,Sound,42.4,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Gemma-3n-E4B-it,Music,46.4,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Gemma-3n-E4B-it,Speech,44.9,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Gemma-3n-E4B-it,Sound-Music,38.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Gemma-3n-E4B-it,Speech-Music,45.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemma-3n-E4B-it,Speech-Sound,31.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemma-3n-E4B-it,Sound-Music-Speech,57.1,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemma-3n-E4B-it,Spatial,21.8,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Gemma-3n-E4B-it,Voice,58.3,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Gemma-3n-E4B-it,Multi-Audio,19.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemma-3n-E4B-it,Open-ended,28.5,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Gemma-3n-E4B-it,IF,36.4,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+GPT4o-mini-Audio,Sound,40.2,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+GPT4o-mini-Audio,Music,59.7,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+GPT4o-mini-Audio,Speech,66.1,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+GPT4o-mini-Audio,Sound-Music,35.3,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+GPT4o-mini-Audio,Speech-Music,42.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GPT4o-mini-Audio,Speech-Sound,55.9,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GPT4o-mini-Audio,Sound-Music-Speech,42.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GPT4o-mini-Audio,Spatial,12.0,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+GPT4o-mini-Audio,Voice,52.7,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+GPT4o-mini-Audio,Multi-Audio,22.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GPT4o-mini-Audio,Open-ended,41.6,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+GPT4o-mini-Audio,IF,79.7,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+GPT4o-Audio,Sound,44.7,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+GPT4o-Audio,Music,63.1,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+GPT4o-Audio,Speech,68.2,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+GPT4o-Audio,Sound-Music,40.4,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+GPT4o-Audio,Speech-Music,43.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GPT4o-Audio,Speech-Sound,62.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GPT4o-Audio,Sound-Music-Speech,57.1,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GPT4o-Audio,Spatial,21.4,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+GPT4o-Audio,Voice,57.5,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+GPT4o-Audio,Multi-Audio,32.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+GPT4o-Audio,Open-ended,43.2,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+GPT4o-Audio,IF,82.5,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+R1-AQA,Sound,47.9,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+R1-AQA,Music,31.9,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+R1-AQA,Speech,33.7,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+R1-AQA,Sound-Music,32.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+R1-AQA,Speech-Music,36.9,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+R1-AQA,Speech-Sound,20.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+R1-AQA,Sound-Music-Speech,28.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+R1-AQA,Spatial,23.6,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+R1-AQA,Voice,32.7,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+R1-AQA,Multi-Audio,11.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+R1-AQA,Open-ended,38.5,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+R1-AQA,IF,44.2,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Audio-Reasoner,Sound,34.2,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Audio-Reasoner,Music,50.1,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Audio-Reasoner,Speech,44.0,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Audio-Reasoner,Sound-Music,26.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Audio-Reasoner,Speech-Music,36.9,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio-Reasoner,Speech-Sound,43.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio-Reasoner,Sound-Music-Speech,28.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio-Reasoner,Spatial,20.3,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Audio-Reasoner,Voice,43.4,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Audio-Reasoner,Multi-Audio,22.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Audio-Reasoner,Open-ended,38.6,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Audio-Reasoner,IF,43.4,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Mellow,Sound,27.6,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Mellow,Music,32.9,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Mellow,Speech,27.9,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Mellow,Sound-Music,24.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Mellow,Speech-Music,34.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Mellow,Speech-Sound,27.3,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Mellow,Sound-Music-Speech,14.3,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Mellow,Spatial,23.7,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Mellow,Voice,28.3,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Mellow,Multi-Audio,20.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Mellow,Open-ended,21.4,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Mellow,IF,23.5,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Ming-Lite-Omni-1.5,Sound,47.9,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Ming-Lite-Omni-1.5,Music,56.2,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Ming-Lite-Omni-1.5,Speech,49.1,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Ming-Lite-Omni-1.5,Sound-Music,30.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Ming-Lite-Omni-1.5,Speech-Music,39.1,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Ming-Lite-Omni-1.5,Speech-Sound,45.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Ming-Lite-Omni-1.5,Sound-Music-Speech,42.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Ming-Lite-Omni-1.5,Spatial,31.7,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Ming-Lite-Omni-1.5,Voice,44.5,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Ming-Lite-Omni-1.5,Multi-Audio,37.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Ming-Lite-Omni-1.5,Open-ended,42.7,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Ming-Lite-Omni-1.5,IF,48.2,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Baichuan-Omni-1.5,Sound,34.6,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Baichuan-Omni-1.5,Music,32.5,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Baichuan-Omni-1.5,Speech,36.5,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Baichuan-Omni-1.5,Sound-Music,30.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Baichuan-Omni-1.5,Speech-Music,19.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Baichuan-Omni-1.5,Speech-Sound,30.7,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Baichuan-Omni-1.5,Sound-Music-Speech,28.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Baichuan-Omni-1.5,Spatial,21.2,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Baichuan-Omni-1.5,Voice,40.0,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Baichuan-Omni-1.5,Multi-Audio,28.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Baichuan-Omni-1.5,Open-ended,39.7,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Baichuan-Omni-1.5,IF,47.2,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Qwen2.5-Omni-3B,Sound,38.5,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Qwen2.5-Omni-3B,Music,60.3,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Qwen2.5-Omni-3B,Speech,53.9,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Qwen2.5-Omni-3B,Sound-Music,40.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-3B,Speech-Music,45.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-3B,Speech-Sound,46.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-3B,Sound-Music-Speech,42.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-3B,Spatial,28.9,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Qwen2.5-Omni-3B,Voice,46.5,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Qwen2.5-Omni-3B,Multi-Audio,11.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-3B,Open-ended,47.6,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Qwen2.5-Omni-3B,IF,58.4,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Qwen2.5-Omni-7B,Sound,47.6,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Qwen2.5-Omni-7B,Music,61.5,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Qwen2.5-Omni-7B,Speech,57.4,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Qwen2.5-Omni-7B,Sound-Music,40.0,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-7B,Speech-Music,53.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-7B,Speech-Sound,60.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-7B,Sound-Music-Speech,28.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-7B,Spatial,41.2,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Qwen2.5-Omni-7B,Voice,60.0,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Qwen2.5-Omni-7B,Multi-Audio,24.3,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Qwen2.5-Omni-7B,Open-ended,52.3,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Qwen2.5-Omni-7B,IF,61.3,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Gemini-2.0 Flash,Sound,48.4,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Gemini-2.0 Flash,Music,56.9,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Gemini-2.0 Flash,Speech,69.5,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Gemini-2.0 Flash,Sound-Music,39.6,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Gemini-2.0 Flash,Speech-Music,57.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemini-2.0 Flash,Speech-Sound,55.9,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemini-2.0 Flash,Sound-Music-Speech,42.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemini-2.0 Flash,Spatial,34.6,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Gemini-2.0 Flash,Voice,68.6,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Gemini-2.0 Flash,Multi-Audio,26.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemini-2.0 Flash,Open-ended,66.8,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Gemini-2.0 Flash,IF,94.2,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Gemini-2.5 Flash,Sound,51.9,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Gemini-2.5 Flash,Music,64.9,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Gemini-2.5 Flash,Speech,73.4,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Gemini-2.5 Flash,Sound-Music,42.8,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Gemini-2.5 Flash,Speech-Music,58.7,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemini-2.5 Flash,Speech-Sound,61.3,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemini-2.5 Flash,Sound-Music-Speech,42.8,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemini-2.5 Flash,Spatial,36.3,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Gemini-2.5 Flash,Voice,71.7,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Gemini-2.5 Flash,Multi-Audio,21.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Gemini-2.5 Flash,Open-ended,67.5,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Gemini-2.5 Flash,IF,95.1,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Caption + GPT4o,Sound,38.6,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Caption + GPT4o,Music,40.6,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Caption + GPT4o,Speech,38.4,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Caption + GPT4o,Sound-Music,21.6,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Caption + GPT4o,Speech-Music,38.2,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Caption + GPT4o,Speech-Sound,25.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Caption + GPT4o,Sound-Music-Speech,28.6,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Caption + GPT4o,Spatial,9.5,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Caption + GPT4o,Voice,38.6,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Caption + GPT4o,Multi-Audio,24.7,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Caption + GPT4o,Open-ended,27.6,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Caption + GPT4o,IF,88.2,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
+Captions + Qwen235B-A22B,Sound,36.4,Sensory,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Captions + Qwen235B-A22B,Music,41.3,Phonological Loop,Physics,Primitive,Ventral,Decoding,Sensory/STS
+Captions + Qwen235B-A22B,Speech,36.1,Phonological Loop,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Captions + Qwen235B-A22B,Sound-Music,18.6,Executive-Inhibition,Physics,Schema,Dorsal,TFM,Control
+Captions + Qwen235B-A22B,Speech-Music,37.4,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Captions + Qwen235B-A22B,Speech-Sound,24.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Captions + Qwen235B-A22B,Sound-Music-Speech,14.3,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Captions + Qwen235B-A22B,Spatial,5.8,Sketchpad,Physics,Primitive,Dorsal,Integration,Control
+Captions + Qwen235B-A22B,Voice,35.6,Episodic Buffer,Semantics,Primitive,Ventral,Decoding,Sensory/STS
+Captions + Qwen235B-A22B,Multi-Audio,22.5,Executive-Inhibition,Semantics,Schema,Dorsal,TFM,Control
+Captions + Qwen235B-A22B,Open-ended,25.6,Episodic Buffer,Semantics,Schema,Ventral,Organization,Control
+Captions + Qwen235B-A22B,IF,85.5,Executive-Logic,Semantics,Schema,Ventral,Organization,Control
