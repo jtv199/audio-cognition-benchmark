@@ -2,19 +2,19 @@ import csv
 
 # --- 1. Define Mappings (Hardcoded from the Mapping Matrix) ---
 PILLAR_MAP = {
-    # Category: (Baddeley, P1_Eco, P2_CASA, P3_Neuro, P4_Katz, P5_Atkinson)
-    "Sound":                ("Sensory", "Physics", "Primitive", "Ventral", "Decoding", "Sensory/STS"),
-    "Music":                ("Phonological Loop", "Physics", "Primitive", "Ventral", "Decoding", "Sensory/STS"),
-    "Speech":               ("Phonological Loop", "Semantics", "Primitive", "Ventral", "Decoding", "Sensory/STS"),
-    "Sound-Music":          ("Executive-Inhibition", "Physics", "Schema", "Dorsal", "TFM", "Control"),
-    "Speech-Music":         ("Executive-Inhibition", "Semantics", "Schema", "Dorsal", "TFM", "Control"),
-    "Speech-Sound":         ("Executive-Inhibition", "Semantics", "Schema", "Dorsal", "TFM", "Control"),
-    "Sound-Music-Speech":   ("Executive-Inhibition", "Semantics", "Schema", "Dorsal", "TFM", "Control"),
-    "Spatial":              ("Sketchpad", "Physics", "Primitive", "Dorsal", "Integration", "Control"),
-    "Voice":                ("Episodic Buffer", "Semantics", "Primitive", "Ventral", "Decoding", "Sensory/STS"),
-    "Multi-Audio":          ("Executive-Inhibition", "Semantics", "Schema", "Dorsal", "TFM", "Control"),
-    "Open-ended":           ("Episodic Buffer", "Semantics", "Schema", "Ventral", "Organization", "Control"),
-    "IF":                   ("Executive-Logic", "Semantics", "Schema", "Ventral", "Organization", "Control")
+    # Category: (Baddeley, P1_Eco, P2_CASA, P3_Neuro, P4_Katz, P5_Atkinson, P5_Ext)
+    "Sound":                ("Sensory", "Physics", "Primitive", "Ventral", "Decoding", "Sensory/STS", "Sensory"),
+    "Music":                ("Phonological Loop", "Physics", "Primitive", "Ventral", "Decoding", "Sensory/STS", "Sensory"),
+    "Speech":               ("Phonological Loop", "Semantics", "Primitive", "Ventral", "Decoding", "Sensory/STS", "LTM-Explicit"),
+    "Sound-Music":          ("Executive-Inhibition", "Physics", "Schema", "Dorsal", "TFM", "Control", "STM-Control"),
+    "Speech-Music":         ("Executive-Inhibition", "Semantics", "Schema", "Dorsal", "TFM", "Control", "STM-Control"),
+    "Speech-Sound":         ("Executive-Inhibition", "Semantics", "Schema", "Dorsal", "TFM", "Control", "STM-Control"),
+    "Sound-Music-Speech":   ("Executive-Inhibition", "Semantics", "Schema", "Dorsal", "TFM", "Control", "STM-Control"),
+    "Spatial":              ("Sketchpad", "Physics", "Primitive", "Dorsal", "Integration", "Control", "STM-Control"),
+    "Voice":                ("Episodic Buffer", "Semantics", "Primitive", "Ventral", "Decoding", "Sensory/STS", "Sensory"),
+    "Multi-Audio":          ("Executive-Inhibition", "Semantics", "Schema", "Dorsal", "TFM", "Control", "STM-Control"),
+    "Open-ended":           ("Episodic Buffer", "Semantics", "Schema", "Ventral", "Organization", "Control", "LTM-Explicit"),
+    "IF":                   ("Executive-Logic", "Semantics", "Schema", "Ventral", "Organization", "Control", "STM-Control")
 }
 
 input_csv = "output/mmau_pro_full_performance.csv"
@@ -22,7 +22,7 @@ output_csv = "output/data/mmau_pro_pillars_scores.csv"
 
 # --- 2. Process Data ---
 rows_out = []
-header = ["Model", "Category", "Score", "Baddeley", "P1_Eco", "P2_CASA", "P3_Neuro", "P4_Katz", "P5_Atkinson"]
+header = ["Model", "Category", "Score", "Baddeley", "P1_Eco", "P2_CASA", "P3_Neuro", "P4_Katz", "P5_Atkinson", "P5_Ext", "MMAU_Original"]
 
 with open(input_csv, 'r') as f:
     reader = csv.DictReader(f)
@@ -47,7 +47,9 @@ with open(input_csv, 'r') as f:
                     mapping[2], # P2
                     mapping[3], # P3
                     mapping[4], # P4
-                    mapping[5]  # P5
+                    mapping[5], # P5
+                    mapping[6], # P5_Ext
+                    cat         # MMAU_Original
                 ])
             except ValueError:
                 continue

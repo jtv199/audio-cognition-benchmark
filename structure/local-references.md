@@ -1,6 +1,6 @@
 # Local References
 
-**Last Updated**: December 29, 2025
+**Last Updated**: January 4, 2026
 
 This document catalogs all research papers that have been downloaded and processed locally. Papers are organized by project area and include importance ratings, relevance to the 4 Pillars, and processing status.
 
@@ -40,6 +40,18 @@ This document catalogs all research papers that have been downloaded and process
 |------------|-----------|-------|-----------|--------|
 | 3/5 | Katz, J. (2025). The Buffalo Model—a comprehensive approach to evaluate and remediate auditory processing disorders. *Audiology Today*, 37(1), 18-25. | Modern retrospective article about the Buffalo Model (original: Katz 1992). Describes 4 diagnostic categories: Decoding, Tolerance-Fading Memory, Integration, Organization. Useful for understanding model development, but **NOT the original 1992 foundational paper**. | `papers/benchmark/Katz_2025_BuffaloModelRetrospective.pdf` | ✓ Read & Summarized |
 
+### Pillar 5: Atkinson-Shiffrin Model (Memory Flow)
+
+| Importance | Reference | Notes | File Path | Status |
+|------------|-----------|-------|-----------|--------|
+| 4/5 | Malmberg, K. J., Raaijmakers, J. G. W., & Shiffrin, R. M. (2019). 50 years of research sparked by Atkinson and Shiffrin (1968). *Memory & Cognition*, 47, 561–574. | **Pillar 5 Reference**. Review of the Modal Model (Sensory -> Short Term -> Long Term). Discusses "Control Processes" like rehearsal and coding, which proved to be a key predictor in our AI ANOVA analysis (F=23.6). | `papers/benchmark/Malmberg_2019_50YearsOfAtkinsonShiffrin.pdf` | ✓ Read & Summarized |
+
+### Pillar 6: Baddeley's Working Memory Model (Cognitive Control)
+
+| Importance | Reference | Notes | File Path | Status |
+|------------|-----------|-------|-----------|--------|
+| 5/5 | Baddeley, A. (2012). Working Memory: Theories, Models, and Controversies. *Annual Review of Psychology*, 63, 1-29. | **Pillar 6 Foundation**. Comprehensive review of the Multicomponent Working Memory model. Defines Central Executive, Phonological Loop, Episodic Buffer, and Visuo-Spatial Sketchpad. Crucial for understanding the "Split Executive" (Logic vs. Inhibition) finding in AI. | `papers/benchmark/Baddeley_2012_WorkingMemoryTheoriesModelsControversies.pdf` | ✓ Read & Summarized |
+
 ### General Frameworks
 
 | Importance | Reference | Notes | File Path | Status |
@@ -74,16 +86,18 @@ These foundational papers are referenced in the project but not yet acquired loc
 
 ## Statistics
 
-**Total Papers Processed**: 12
-- Core Pillar Papers: 2 (Gaver 1993, Rauschecker 2009)
+**Total Papers Processed**: 14
+- Core Pillar Papers: 4 (Gaver, Rauschecker, Baddeley, Malmberg)
 - Bregman ASA Chapters: 8 (comprehensive Pillar 2 coverage)
 - Supporting Papers: 2 (Katz 2025 retrospective, Nicolson 1990 review)
 
 **Pillar Coverage**:
 - ✅ Pillar 1 (Ecological): Complete (Gaver 1993)
-- ✅ Pillar 2 (CASA): Complete (Bregman 1990 - 8 chapters)
+- ✅ Pillar 2 (CASA): Complete (Bregman 1990)
 - ✅ Pillar 3 (Neuro): Complete (Rauschecker & Scott 2009)
 - ⚠ Pillar 4 (Clinical): Incomplete (Need original Katz 1992 paper)
+- ✅ Pillar 5 (Memory): Complete (Malmberg/Atkinson 2019)
+- ✅ Pillar 6 (Working Memory): Complete (Baddeley 2012)
 
 ---
 
@@ -92,4 +106,3 @@ These foundational papers are referenced in the project but not yet acquired loc
 - All files follow academic naming convention: `Author_Year_ShortTitle.pdf`
 - All processed files located in `papers/benchmark/`
 - Metadata extraction completed using `extract_pdf_metadata.py` script
-- Full identification summary available in `.claude/temp/pdf_identification_summary.md`

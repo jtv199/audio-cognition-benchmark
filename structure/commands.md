@@ -30,10 +30,6 @@
   - 3/5: Medium importance (supporting evidence)
   - 2/5: Low importance (peripheral)
   - 1/5: Reference only (context)
-- **Map to task layers** (if applicable):
-  - Layer 1: Foundational (Perception & Schema)
-  - Layer 2: Cognitive Control (Attention & Load)
-  - Layer 3: Inferential (Reasoning & Theory of Mind)
 
 #### Step 3: Rename & Organize
 - **Rename file** using academic convention:

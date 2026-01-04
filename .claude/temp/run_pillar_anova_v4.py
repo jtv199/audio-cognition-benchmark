@@ -14,7 +14,7 @@ def fdtr(df1, df2, f):
     b = df1 / 2.0
     
     # Simple Simpson's rule for Beta(x; a, b)
-    n = 20 # Low precision for speed/stability
+    n = 20 
     h = x / n
     s = 0
     
@@ -40,40 +40,47 @@ def fdtr(df1, df2, f):
         
     return integral / beta_val
 
-def calculate_anova(groups):
+def calculate_stats(groups):
     all_scores = [s for sublist in groups.values() for s in sublist]
-    if not all_scores: return 0.0, 0, 0, 0.0, 0
-    
-    grand_mean = statistics.mean(all_scores)
     N = len(all_scores)
-    k = len(groups)
+    k = len(groups) # Parameters (Groups)
     
-    if k < 2: return 0.0, 0, 0, 0.0, k
+    if N == 0: return 0, 0, 0, 0, 0, 0
 
+    grand_mean = statistics.mean(all_scores)
+
+    # SS Between & Within
     ss_between = 0
+    ss_within = 0 # This is RSS (Residual Sum of Squares)
+    
     for scores in groups.values():
         n_i = len(scores)
-        mean_i = statistics.mean(scores)
-        ss_between += n_i * (mean_i - grand_mean)**2
-
-    ss_within = 0
-    for scores in groups.values():
-        mean_i = statistics.mean(scores)
-        for s in scores:
-            ss_within += (s - mean_i)**2
+        if n_i > 0:
+            mean_i = statistics.mean(scores)
+            ss_between += n_i * (mean_i - grand_mean)**2
+            for s in scores:
+                ss_within += (s - mean_i)**2
 
     df_between = k - 1
     df_within = N - k
     
-    if df_between == 0 or df_within == 0: return 0.0, df_between, df_within, ss_within, k
+    f_stat = 0.0
+    if df_between > 0 and df_within > 0 and ss_within > 0:
+        ms_between = ss_between / df_between
+        ms_within = ss_within / df_within
+        f_stat = ms_between / ms_within
 
-    ms_between = ss_between / df_between
-    ms_within = ss_within / df_within
-    
-    if ms_within == 0: return 0.0, df_between, df_within, ss_within, k
+    # AIC Calculation
+    # AIC = N * ln(RSS/N) + 2*k
+    # k is actually num_groups + 1 (for variance estimate), but typically just num_groups is used for comparison
+    # We will use k_model = num_groups + 1
+    k_model = k + 1 
+    if ss_within > 0:
+        aic = N * math.log(ss_within / N) + 2 * k_model
+    else:
+        aic = float('inf')
 
-    f_stat = ms_between / ms_within
-    return f_stat, df_between, df_within, ss_within, k
+    return f_stat, df_between, df_within, ss_within, k, aic
 
 # --- Main Analysis ---
 csv_file = "output/data/mmau_pro_pillars_scores.csv"
@@ -89,9 +96,9 @@ with open(csv_file, 'r') as f:
             data.append(row)
         except: pass
 
-print("\n--- Comparative ANOVA Results ---")
-print(f"{ 'Taxonomy':<15} | { 'k':<3} | { 'F-Stat':<8} | { 'df':<8} | { 'Deviance':<9} | { 'P-Value':<8} | {'Power'}")
-print("-" * 85)
+print("\n--- Comparative ANOVA Results (with AIC) ---")
+print(f"{ 'Taxonomy':<15} | { 'k':<3} | { 'F-Stat':<8} | { 'Deviance':<9} | { 'AIC':<8} | { 'P-Value':<8} |{'Power'}")
+print("-" * 90)
 
 for tax in taxonomies:
     groups = {}
@@ -102,33 +109,30 @@ for tax in taxonomies:
                 groups[label] = []
             groups[label].append(row['Score'])
     
-    if not groups:
-        continue
+    if not groups: continue
         
-    f_stat, df_b, df_w, deviance, k = calculate_anova(groups)
+    f_stat, df_b, df_w, deviance, k, aic = calculate_stats(groups)
     
     # P-Value Calc
     try:
-        if f_stat > 100: p_val = 0.0 # Extreme F
+        if f_stat > 100: p_val = 0.0
         else: p_val = fdtr(df_b, df_w, f_stat)
-    except:
-        p_val = 1.0 # Fail safe
+    except: p_val = 1.0
         
-    results.append((tax, k, f_stat, df_b, df_w, deviance, p_val))
+    results.append((tax, k, f_stat, df_b, df_w, deviance, aic, p_val))
 
-results.sort(key=lambda x: x[2], reverse=True)
+# Sort by AIC (Lower is Better)
+results.sort(key=lambda x: x[6]) # Sort by AIC
 
 for res in results:
-    tax, k, f_stat, df_b, df_w, deviance, p_val = res
+    tax, k, f_stat, df_b, df_w, deviance, aic, p_val = res
     power = "High" if f_stat > 10 else "Medium" if f_stat > 5 else "Low"
-    df_str = f"{df_b},{df_w}"
-    
-    # Handle p-value display
     if p_val < 1e-4: p_str = "<1e-4"
     else: p_str = f"{p_val:.4f}"
     
-    print(f"{tax:<15} | {k:<3} | {f_stat:<8.4f} | {df_str:<8} | {deviance:<9.1f} | {p_str:<8} | {power}")
+    print(f"{tax:<15} | {k:<3} | {f_stat:<8.4f} | {deviance:<9.1f} | {aic:<8.1f} | {p_str:<8} | {power}")
 
 print("\n--- Notes ---")
 print("1. Deviance: Residual Sum of Squares (RSS). Lower implies better fit.")
-print("2. P-Value: Calculated via manual Regularized Beta Function integration.")
+print("2. AIC: Akaike Information Criterion. Lower is better. Penalizes complexity (k).")
+print("3. Sorted by AIC (Best balance of simplicity and accuracy).")
