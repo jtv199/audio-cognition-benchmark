@@ -106,3 +106,42 @@ Handles visual (color, shape) and spatial (location, movement) information. It i
 | **Phonological Loop** | Serial Recall (Non-words) | Does the AI fail via chaining (total collapse) or gradient (transposition)? (No-Chaining Rule) |
 | **Episodic Buffer** | Binding under Load | Can the AI maintain "Face+Voice" binding while counting backwards? (Maintenance Rule) |
 | **Sketchpad** | Spatial Instruction | Can the AI map "Left/Right" audio cues to a grid? (Spatial Rule) |
+
+---
+
+## 5. Auditory Scene Analysis (ASA)
+
+### Scope
+Defined by Bregman (1990), this model describes how the brain segregates complex auditory mixtures into distinct "streams" or objects.
+
+### Decision Rules
+*   **Primitive Segregation (Bottom-Up):**
+    *   *Rule:* Group by physics (pitch proximity, onset synchrony, harmonicity).
+    *   *Test:* Can the AI separate two simultaneous beeps?
+*   **Schema-Based Segregation (Top-Down):**
+    *   *Rule:* Group by learned knowledge (language, melody, familiarity).
+    *   *Test:* Can the AI hear its name in a noisy room?
+
+## 6. The Katz (Buffalo) Model
+
+### Scope
+A clinical model for Central Auditory Processing Disorder (CAPD), focusing on diagnostic categories.
+
+### Components
+*   **Phonemic Decoding:** Quick, accurate processing of speech sounds (e.g., distinguishing /ba/ from /da/).
+*   **Tolerance-Fading Memory (TFM):** Understanding speech in noise + Short-Term Memory.
+*   **Integration:** Combining auditory info with visual/other inputs (e.g., "Put the ball (audio) in the red box (visual)") or binaural cues.
+*   **Organization:** Sequencing, planning, and keeping order.
+
+## 7. Ease of Language Understanding (ELU) Model
+
+### Scope
+Rönnberg's model (2013) focusing on the interaction between implicit processing and explicit working memory during listening.
+
+### Decision Rules
+*   **Implicit Processing (RAMBPHO):**
+    *   *Mechanism:* Rapid, Automatic, Multimodal Binding of PHOnology.
+    *   *Rule:* If the signal is clear and matches LTM, processing is fast and effortless.
+*   **Explicit Processing (Mismatch):**
+    *   *Mechanism:* Slow, resource-heavy Working Memory loop.
+    *   *Rule:* Triggered only when there is a **Mismatch** (noise, accent, distortion). The brain must "pause and repair."

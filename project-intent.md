@@ -2,9 +2,9 @@
 
 ## Executive Summary
 
-This project develops a comprehensive benchmark to evaluate Audio Large Language Models (AudioLLMs) on **higher-order reasoning tasks**, moving beyond simple transcription and classification. The core innovation is bridging the gap between what AI models currently excel at (**Perception** - identifying "dog bark") and what they struggle with (**Reasoning** - inferring "The dog is barking behind a wall, so I cannot see it").
+This project develops a **"Cognitive Stress Test" benchmark** for Audio Large Language Models (AudioLLMs). Moving beyond simple accuracy metrics, we utilize **Functional Isomorphism** and **Cognitive Subtraction** to rigorously measure specific processing deficits. By replicating classic human cognitive experiments (Baddeley, Sperling, ELU), we aim to mathematically distinguish between **Sensory Blindness** (Encoder failure) and **Executive Failure** (Reasoning collapse).
 
-**Current Status**: Phase 1 - Literature Review 
+**Current Status**: Phase 2 - Experimental Design
 
 **Repository**: https://github.com/jtv199/audio-cognition-benchmark
 
@@ -13,14 +13,26 @@ This project develops a comprehensive benchmark to evaluate Audio Large Language
 ## Project Goals
 
 ### Primary Objective
-Define the theoretical boundaries of "Human Auditory Capability" to construct a valid evaluation benchmark for "Audio Reasoning" in AI models by:
+Validate the existence of specific cognitive bottlenecks in Audio AI by implementing **Paired Stress Tests** (Cognitive Subtraction):
 
-1. **Referencing multiple cognitive frameworks** from psychology and neuroscience to identify the full spectrum of auditory cognition tasks
-2. **Mapping these tasks** across existing AI audio benchmarks (AIR-Bench, AudioBench, MMAU-Pro, WavCaps)
-3. **Identifying gaps** in current benchmark coverage that represent missing capabilities in AI evaluation
-4. **Establishing a systematic taxonomy** that can guide future benchmark development
+1.  **Replicate Human Experimental Protocols**: Adapt classic psychological paradigms (e.g., Sperling's Partial Report, Baddeley's Dual-Task) into computational benchmarks.
+2.  **Isolate Component Failures**: Use "Baseline vs. Stress" comparisons to mathematically prove if a failure is due to:
+    *   **Sensory Limits** (e.g., Echoic Memory capacity)
+    *   **Executive Load** (e.g., Inhibition failure under noise)
+    *   **Top-Down Repair** (e.g., Lack of Schema-driven restoration)
+3.  **Establish "Functional Isomorphism"**: Demonstrate that valid AI benchmarking requires testing the *process* (error patterns), not just the *output* (transcription accuracy).
 
 ### Key Research Question
-*"How do different scientific fields categorize the hierarchy of human hearing, and what does this reveal about missing capabilities in current AI audio evaluation?"*
+*"Can we mathematically isolate specific cognitive deficits (Sensory vs. Executive) in Audio AI by replicating the 'performance deltas' found in human experimental psychology?"*
+
+## Methodology: Cognitive Subtraction
+
+We reject static "Taxonomies" in favor of dynamic **Paired Testing**. Every benchmark consists of a **Baseline Task (A)** and a **Stress Task (B)**. The **Delta (B - A)** reveals the specific cognitive cost.
+
+| Target Component | Human Analogue | AI Experiment (The Pair) | The Metric (Delta) |
+| :--- | :--- | :--- | :--- |
+| **Sensory Trace** | **Sperling (1960)**<br>Partial Report | **A:** "Recall all 10 digits."<br>**B:** "Recall the 3 digits at this specific timestamp." | If $Acc_B \gg Acc_A$, the model has a high-capacity "Sensory Buffer." |
+| **Executive Capacity** | **Baddeley (1974)**<br>Dual-Task | **A:** "Transcribe this noisy audio."<br>**B:** "Transcribe AND count the adjectives." | If $Acc_{Trans}$ is stable but $Acc_{Count}$ drops, the model has low "Spare Capacity." |
+| **Schema Repair** | **Miller & Licklider (1950)**<br>Continuity Illusion | **A:** "Did the tone stop?" (Gap = Silence)<br>**B:** "Did the tone stop?" (Gap = Noise) | If the model reports "It continued" only in B, it uses Top-Down Repair. |
 
 ---
