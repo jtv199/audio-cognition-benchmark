@@ -1,0 +1,24 @@
+# Experiments from Auditory Cognition (Baldwin, 2012) & ASA (Bregman, 1990) - Chapter 4
+
+| Experiment / Model | Experiment Detail | Year | Relevance (1-10) |
+| :--- | :--- | :--- | :--- |
+| **Dual-Task Interference (Baddeley & Hitch)** | Subjects perform a primary reasoning task (Central Executive) while performing a secondary load task (e.g., repeating "the-the-the"). Proves separation of Executive and Phonological Loop. | 1974 | **10/10** (Basis for Pilot) |
+| **Multiple Resource Theory (Wickens)** | Comparison of time-sharing efficiency between Cross-Modal (Audio-Visual) and Intra-Modal (Audio-Audio) tasks. Established that "Code" (Verbal vs Spatial) matters more than "Modality". | 1980, 1984 | **8/10** (Explains load failures) |
+| **Split-Span / Filter Theory (Broadbent)** | Dichotic listening tasks where subjects hear different digits in each ear. Proved "Early Selection" filter theory (sensory bottleneck). | 1958 | **7/10** (Selective Attention) |
+| **Attenuation / Breakthrough (Treisman)** | Modification of Broadbent's filter. Subjects shadow one ear but hear their name in the unattended ear. Proves "leaky" filter (semantic processing of unattended stream). | 1960/1964 | **7/10** (Cocktail Party Effect) |
+| **Late Selection (Deutsch & Deutsch)** | Proposed that all stimuli are analyzed for meaning, and selection happens at response. Relevant for AI which "hears" everything in the context window. | 1963 | **6/10** (Theoretical baseline) |
+| **Echoic Memory Duration (Crowder/Morton)** | Experiments establishing "Precategorical Acoustic Storage" (PAS) lasting 2-4 seconds, distinct from short-term neural activity (200ms). | 1969 | **5/10** (Context window dynamics) |
+| **Processing Stages Pipeline** | Theoretical model progressing from Acoustic -> Phonological -> Lexical -> Semantic codes. | Various | **9/10** (Matches benchmark layers) |
+| **Phonological Similarity Effect (Conrad)** | Visually presented letters are confused with their rhyming counterparts (e.g., 'T' confused with 'D', not 'F'). Proves visual input is converted to phonological code. | 1964 | **8/10** (Tests internal representation) |
+| **Tracking vs. Verbal Load (Klapp & Netick)** | Tracking tasks (spatial) are disrupted more by concurrent spatial tasks than verbal tasks. Supports MRT code distinction (Spatial vs Verbal). | 1988 | **9/10** (Modality/Code separation) |
+| **Auditory Preemption (Wickens & Liu)** | Continuous visual task + discrete auditory task. Auditory task "preempts" visual attention, causing degradation in visual task. | 1988 | **8/10** (Interrupt handling) |
+| **Phonemic Restoration / Ganong Effect (Ganong)** | Ambiguous phonemes (e.g., d/t) are perceived as the phoneme that creates a real word (e.g., "dash" vs "tash"). Shows top-down lexical influence on acoustic processing. | 1980 | **9/10** (Top-down reasoning) |
+| **Gating Paradigm (Grosjean)** | Words are often not recognized until partway through the *next* word. Highlights the "Segmentation Problem" and need for context. | 1985 | **8/10** (Context window/Streaming) |
+| **Driving + Speech Intensity (Baldwin & Struckman-Johnson)** | Dual-task: Driving sim + Sentence verification. Low intensity/fast pace speech degraded driving performance, but only under dual-task load. | 2002 | **10/10** (Stress testing/Load) |
+| **Listening Span (Daneman & Carpenter)** | Process sentences (T/F) while remembering final words. Measures Working Memory Capacity better than simple digit span. | 1980 | **9/10** (WM Capacity Benchmark) |
+| **Divided Attention Encoding (Craik et al.)** | Divided attention disrupts *encoding* of memory much more than *retrieval*. | 1996 | **7/10** (Memory architecture) |
+| **Syntactic Context Effect (Miller & Isard)** | Word recognition is significantly better in syntactically appropriate sentences vs. random word strings. Isolates Syntactic/Semantic processing stage. | 1963 | **8/10** (Language modeling baseline) |
+| **Timbre Segregation (Nordmark)** | Recognition of timbres in mixtures (AM tones, square waves) without spectral/common fate cues. Suggests schema-based processing. | 1978 | **8/10** (Schema-based segregation) |
+| **Simultaneous Vowel Segregation (Scheffers)** | Identification of vowel pairs mixed together (glottal pulses or noise). Performance above chance suggests schema use. | 1979 | **9/10** (Cocktail party/Segregation) |
+| **Duplex Perception (Cutting)** | Formants sent to different ears with different F0 are heard as separate sounds but integrated into correct syllable ("da"). | 1976 | **8/10** (Binaural integration) |
+| **Phonemic Restoration (Warren)** | Missing phonemes replaced by noise are perceptually restored based on sentence context. (Distinct from Ganong effect). | 1970 | **9/10** (Contextual restoration) |
